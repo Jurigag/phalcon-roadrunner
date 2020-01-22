@@ -1,0 +1,23 @@
+{
+    "name": "jurigag/phalcon-roadrunner",
+    "type": "server",
+    "description": "Bridge between phalcon applications and roadrunner server for php",
+    "authors": [
+        {
+            "name": "Wojciech Ślawski",
+            "email": "jurigag@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phalcon\\RoadRunner\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "spiral/roadrunner": "^1.5",
+        "ext-phalcon": "*",
+        "phalcon/ide-stubs": "^3.0"
+    }
+}
